@@ -2109,9 +2109,9 @@ pre code {
 .form-control:focus {
   color: #364154;
   background-color: #fff;
-  border-color: #f1bdf9;
+  border-color: #d3f9bd;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(217, 72, 239, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(167, 239, 72, 0.25);
 }
 .form-control::placeholder {
   color: #475466;
