@@ -103,7 +103,7 @@ if(file_exists(ROOT . 'install/installed')) {
                             <td>7.4-8.1</td>
                             <td><?= PHP_VERSION ?></td>
                             <td>
-                                <?php if(version_compare(PHP_VERSION, '7.4.0', '>=') && version_compare(PHP_VERSION, '8.1.1', '<=')): ?>
+                                <?php if(version_compare(PHP_VERSION, '7.4.0', '>=') && version_compare(PHP_VERSION, '8.1.11', '<=')): ?>
                                     <img src="assets/svg/check-circle-solid.svg" class="img-fluid img-icon text-success" />
                                 <?php else: ?>
                                     <img src="assets/svg/times-circle-solid.svg" class="img-fluid img-icon text-danger" />
